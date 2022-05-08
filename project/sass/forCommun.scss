@@ -1,0 +1,158 @@
+body{
+    font-family:  Calibri, sans-serif;
+    margin: 0;
+    background-color: #0d121e;
+    color: rgba(255, 255, 255, 1);
+}    
+ 
+@import 'header';
+
+h3{
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 332px; 
+    margin: auto;
+    margin-top: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.TextDV{
+    margin: auto;
+    margin-top: 26px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    margin-left: 100px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    ul{
+        margin: 6px 0px 6px 0px;
+    }
+}
+
+.FormDV{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color:black;
+    form{
+        width: 900px;
+        padding: 20px 20px 40px 0px;
+        background-color: #FFF2DD;
+        
+   
+        p{
+           text-align: center;
+            //width: 920px;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        label{
+            display:inline-block;
+            width: 200px;
+            text-decoration: underline;
+            font-weight: bold;
+            
+        }
+        
+        input{
+            background-color: #0d121e;
+            width: 645px;
+            height: 32px;
+            color: white;
+            border:none;
+        }
+        
+        .txarea{
+            display: flex;
+            align-items: flex-start;
+            textarea{
+                background-color: #0d121e;
+                width: 645px;
+                color: white;
+                border:none;
+                border-radius: 0px;
+            }
+        }
+        .Butn{
+            width: 200px;
+            margin-left: 63px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        
+            margin-top: 15px;
+
+            button{
+                background-color: #0d121e;
+                color: white;
+                width: 115px;
+                height: 30px;
+                text-align: center;
+
+            }
+        }
+    }//form
+
+}
+
+@media (max-width: 1000px) {
+    .TextDV{
+        margin-left: 20px;
+    }
+    .FormDV{
+        form{
+            width: 620px;
+            padding: 15px 20px 15px 0px;
+            p{
+               text-align: center;
+                //width: 920px;
+            }
+    
+            label{
+                width: 200px;
+                
+            }
+            
+            input{
+                background-color: #0d121e;
+                width: 400px;
+                height: 32px;
+            }
+            
+            .txarea{
+                textarea{
+                    background-color: #0d121e;
+                    width: 400px;
+                }
+            }
+            .Butn{
+                width: 200px;        
+                margin-top: 15px;
+                margin-left: 50px;
+                button{
+                    background-color: #0d121e;
+                    color: white;
+                    width: 115px;
+                    height: 30px;
+                }
+            }
+        }//form
+    }
+}
+
+@import 'footer';

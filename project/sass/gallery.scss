@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;   
+}
+
+body{
+    font-family:  Calibri, sans-serif;
+    margin: 0;
+    background-color: #131925;
+    color: rgba(255, 255, 255, 1);
+}    
+ 
+@import 'header';
+
+.upBtn{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+}
+
+.main{
+    background-color: #0d121e;
+    //border-left: 10px dashed #131925;
+    //border-right: 10px dashed #131925;
+
+    width: 1200px;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+    .whitedv{
+        background-color: rgba(233, 227, 216, 1);
+        color:black;
+        height: 55px;
+        width: 1200pxpx; 
+        margin: auto;
+        margin-top: 50px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+
+    .Series{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 60px;
+        width: 1025px;
+        
+        .SeriesDv{
+            position: relative;
+            .SeriesImg {  
+                background-color: white;
+                width: 410px;
+                height: 290px; 
+                img{
+                    width: 410px;
+                    height: 290px; 
+                }
+                
+                .FgCaption{  
+                    position:absolute;
+                    bottom:0;   
+                    width: 410px;
+                    height: 50px;
+                    background: #080b13f0;
+                    font-size: 14px;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    a{
+                        color:white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }//Series
+}//main
+
+@import 'footer';

@@ -1,0 +1,46 @@
+header{
+    background:#090c14;//#03050F
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    height: 85px;
+    position: sticky;
+    top:0px;
+    z-index: 3;
+    
+    font-size: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    
+    img{
+        margin-left: 15px;
+        width: 170px;
+    }
+
+    .aheader{
+        position: absolute;
+        right: 15px;
+        width: 450px;
+        height: 45px;
+          
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        :hover{
+            text-decoration: underline;
+                
+            }
+        cursor: pointer;  
+        a{
+            color: rgba(255, 255, 255, 1);
+            text-decoration: none;
+        }
+
+    }
+
+    
+}

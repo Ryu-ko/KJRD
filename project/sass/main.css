@@ -1,0 +1,355 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+  margin: 0;
+  background-color: #131925;
+  color: white;
+}
+
+.hokusA {
+  color: white;
+  text-decoration: none;
+}
+
+.hokusA:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: #090c14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 85px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+header img {
+  margin-left: 15px;
+  width: 170px;
+}
+
+header .aheader {
+  position: absolute;
+  right: 15px;
+  width: 450px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+}
+
+header .aheader :hover {
+  text-decoration: underline;
+}
+
+header .aheader a {
+  color: white;
+  text-decoration: none;
+}
+
+.upBtn {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+}
+
+.mainImg {
+  height: 650px;
+  background-image: url("../img/TheGreatWave.jpg");
+  background-size: 100% 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mainImg .CenterText {
+  width: 100%;
+  margin-top: 160px;
+}
+
+.mainImg .PicNM {
+  padding: 4px;
+  width: 300px;
+  text-align: center;
+  background: rgba(6, 9, 28, 0.842);
+}
+
+.textBlok1 {
+  margin: 30px 104px 30px 104px;
+  font-size: 17px;
+}
+
+.textBlok1 h1 {
+  text-align: center;
+}
+
+.textBlok1 h3 {
+  text-align: left;
+}
+
+.textBlok1 ul li {
+  margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  .textBlok1 {
+    width: 775px;
+  }
+  .textBlok1 h3 {
+    font-size: 17px;
+    text-align: left;
+  }
+  .textBlok1 ul li {
+    margin-top: 15px;
+  }
+}
+
+.genresImg {
+  background-color: #0d121e;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.genresImg .Flexdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.genresImg figure {
+  text-align: center;
+}
+
+.genresImg figure .type1 {
+  width: 300px;
+  height: 450px;
+}
+
+.genresImg figure .type2 {
+  width: 400px;
+  height: 300px;
+}
+
+.genresImg figure .Fctype2 {
+  margin-left: 30px;
+  width: 350px;
+}
+
+.genresImg figure figcaption {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  font-size: 14px;
+  width: 290px;
+}
+
+.textBlok2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 775px;
+  margin: auto;
+}
+
+.textBlok2 h1 {
+  text-align: center;
+}
+
+.textBlok2 p {
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  text-indent: 22px;
+}
+
+.textBlok2 .figGoriz {
+  text-align: center;
+}
+
+.textBlok2 .figGoriz img {
+  width: 650px;
+  height: 430px;
+}
+
+.textBlok2 .figGoriz .figCapGoriz {
+  font-size: 14px;
+}
+
+.textBlok2 .Text2_2 {
+  width: 775px;
+  margin-top: 15px;
+}
+
+.textBlok2 .Text2_2 .p2_2_1, .textBlok2 .Text2_2 .p2_2_2 {
+  margin-top: 20px;
+  width: 460px;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  text-indent: 22px;
+  margin-bottom: 30px;
+}
+
+.textBlok2 .figEdo {
+  float: right;
+  margin: 0px;
+  text-align: center;
+}
+
+.textBlok2 .figEdo .p3img {
+  width: 310px;
+  height: 420px;
+}
+
+.textBlok2 .figEdo .figCapEdo {
+  font-size: 14px;
+  width: 270px;
+}
+
+.textBlok2 .KabukiFig {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.textBlok2 .KabukiFig .KabukiIMG {
+  width: 333px;
+  height: 498px;
+}
+
+@media (max-width: 1000px) {
+  .textBlok2 .Text2_2 .p2_2_1 {
+    width: 660px;
+  }
+  .textBlok2 .Text2_2 .p2_2_2 {
+    width: 775px;
+  }
+  .textBlok2 .figEdo .p3img {
+    width: 300px;
+    height: 490px;
+  }
+}
+
+.Text2_4 {
+  margin-bottom: 10px;
+}
+
+.Text2_4 .figuresVanGog {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.Text2_4 .figuresVanGog .VanGogFigure .VanGogIMG {
+  width: 340px;
+  height: 447px;
+}
+
+footer {
+  height: 90px;
+  background-color: #090c14;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  margin: 6px;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer div img {
+  width: 17px;
+}
+/*# sourceMappingURL=main.css.map */

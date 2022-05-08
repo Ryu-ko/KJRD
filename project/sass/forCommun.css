@@ -1,0 +1,276 @@
+body {
+  font-family: Calibri, sans-serif;
+  margin: 0;
+  background-color: #0d121e;
+  color: white;
+}
+
+header {
+  background: #090c14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 85px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+header img {
+  margin-left: 15px;
+  width: 170px;
+}
+
+header .aheader {
+  position: absolute;
+  right: 15px;
+  width: 450px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+}
+
+header .aheader :hover {
+  text-decoration: underline;
+}
+
+header .aheader a {
+  color: white;
+  text-decoration: none;
+}
+
+h3 {
+  background-color: white;
+  color: black;
+  height: 45px;
+  width: 332px;
+  margin: auto;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.TextDV {
+  margin: auto;
+  margin-top: 26px;
+  line-height: 19px;
+  letter-spacing: 0.06em;
+  margin-left: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.TextDV ul {
+  margin: 6px 0px 6px 0px;
+}
+
+.FormDV {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+.FormDV form {
+  width: 900px;
+  padding: 20px 20px 40px 0px;
+  background-color: #FFF2DD;
+}
+
+.FormDV form p {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.FormDV form label {
+  display: inline-block;
+  width: 200px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.FormDV form input {
+  background-color: #0d121e;
+  width: 645px;
+  height: 32px;
+  color: white;
+  border: none;
+}
+
+.FormDV form .txarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.FormDV form .txarea textarea {
+  background-color: #0d121e;
+  width: 645px;
+  color: white;
+  border: none;
+  border-radius: 0px;
+}
+
+.FormDV form .Butn {
+  width: 200px;
+  margin-left: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-top: 15px;
+}
+
+.FormDV form .Butn button {
+  background-color: #0d121e;
+  color: white;
+  width: 115px;
+  height: 30px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .TextDV {
+    margin-left: 20px;
+  }
+  .FormDV form {
+    width: 620px;
+    padding: 15px 20px 15px 0px;
+  }
+  .FormDV form p {
+    text-align: center;
+  }
+  .FormDV form label {
+    width: 200px;
+  }
+  .FormDV form input {
+    background-color: #0d121e;
+    width: 400px;
+    height: 32px;
+  }
+  .FormDV form .txarea textarea {
+    background-color: #0d121e;
+    width: 400px;
+  }
+  .FormDV form .Butn {
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+  .FormDV form .Butn button {
+    background-color: #0d121e;
+    color: white;
+    width: 115px;
+    height: 30px;
+  }
+}
+
+footer {
+  height: 90px;
+  background-color: #090c14;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  margin: 6px;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer div img {
+  width: 17px;
+}
+/*# sourceMappingURL=forCommun.css.map */

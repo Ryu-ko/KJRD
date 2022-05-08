@@ -1,0 +1,25 @@
+footer{
+    height: 90px;
+    background-color: #090c14;
+    font-size: 15px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    p{
+        margin: 6px;
+
+    } 
+    div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        img{
+        width:17px;
+        } 
+    }
+
+}

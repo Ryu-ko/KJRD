@@ -1,0 +1,227 @@
+html{
+    scroll-behavior: smooth;   
+}
+body{
+    font-family:  Calibri, sans-serif;
+    margin: 0;
+    background-color: #131925;
+    color: rgba(255, 255, 255, 1);
+}    
+.hokusA{
+    color:white;
+    text-decoration: none;  
+}
+.hokusA:hover{
+        text-decoration: underline;
+    }
+@import 'header';
+
+.upBtn{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+}
+
+.mainImg{
+    height: 650px;
+    background-image: url("../img/TheGreatWave.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+   .CenterText{
+        width:100%;
+        margin-top: 160px;
+
+    }
+    .PicNM{
+        padding: 4px;
+        width: 300px;
+        text-align: center;
+        background: rgba(6, 9, 28, 0.842);
+
+    }
+}
+
+.textBlok1{
+    margin: 30px 104px 30px 104px;
+    font-size: 17px;
+    h1{
+        text-align: center;
+    }
+
+    h3{
+        text-align: left;
+    }
+    ul{
+        li{
+            
+            margin-top: 15px;
+        }
+    }
+
+    @media (max-width: 1000px){
+            width: 775px;  
+
+
+        h3{
+            font-size: 17px;
+            text-align: left;
+        }
+        ul{
+            li{
+                
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+.genresImg{
+    background-color:#0d121e;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .Flexdiv{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    figure{
+        text-align: center;
+        .type1{
+            width: 300px;
+            height: 450px;
+        }
+        .type2{
+            width: 400px;
+            height: 300px;
+            
+        }
+        .Fctype2{
+                margin-left: 30px;
+                width: 350px;
+            }
+        figcaption{
+            background-color: rgba(255, 255, 255, 0);
+            text-align: center;
+            font-size: 14px;
+            width: 290px;
+        }
+    }
+}
+
+////////////////////////////////////////
+
+.textBlok2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 775px;
+    margin: auto;
+    h1{
+        text-align: center;
+    }
+    p{
+        font-size: 17px;
+        line-height: 23px;
+        letter-spacing: 0.04em;
+        text-indent: 22px;    
+    }
+    .figGoriz{
+        text-align: center;
+        img{
+            width: 650px;
+            height: 430px;
+        }
+        .figCapGoriz{
+            font-size: 14px;
+        }
+    }
+
+
+    .Text2_2{    
+        width: 775px;
+        margin-top: 15px;
+    
+        .p2_2_1,.p2_2_2{
+            margin-top: 20px;
+            width: 460px;
+
+            font-size: 17px;
+            line-height: 23px;
+            letter-spacing: 0.04em;
+            text-indent: 22px;
+
+            margin-bottom: 30px;
+        }
+
+            
+    }
+
+        .figEdo{
+            float: right;
+            margin: 0px;
+            text-align: center;
+                .p3img{
+                    width: 310px;
+                    height: 420px;
+                }
+                .figCapEdo{
+                    font-size: 14px;
+                    width: 270px;            
+                }
+        }
+
+        .KabukiFig{
+            text-align: center;
+            margin-top: 18px;
+            .KabukiIMG{
+                width: 333px;
+                height: 498px;
+            }
+        }
+
+        @media (max-width: 1000px){
+            .Text2_2{
+                .p2_2_1{
+                    width: 660px;
+                } 
+                .p2_2_2{
+                    width:775px;
+                }
+            }
+            .figEdo{
+                .p3img{
+                    width: 300px;
+                    height: 490px;
+                }
+            }
+        }
+
+    }
+
+    .Text2_4{
+        margin-bottom: 10px;
+       .figuresVanGog{
+           font-size: 14px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+        .VanGogFigure{   
+            .VanGogIMG{
+                width: 340px;
+                height: 447px;
+            }
+        }
+        }
+    }
+
+@import 'footer';
