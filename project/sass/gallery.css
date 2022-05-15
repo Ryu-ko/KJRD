@@ -66,6 +66,7 @@ header .aheader a {
   position: fixed;
   bottom: 15px;
   right: 20px;
+  z-index: 3;
 }
 
 .main {

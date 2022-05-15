@@ -2,11 +2,11 @@
     figure{ 
         .type1{
             margin-left: 30px;
-            width: 170px;
+            width: 160px;
             height: 317px;
         }
         .type2{
-            width: 200px;
+            width: 180px;
             height: 317px;
         }
         figcaption{
@@ -15,6 +15,10 @@
 
         }
     }
+}
+
+img:hover{
+    transform:none;
 }
 
 .whitedv{

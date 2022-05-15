@@ -62,6 +62,13 @@ header .aheader a {
   text-decoration: none;
 }
 
+img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
 .upBtn {
   position: fixed;
   bottom: 15px;

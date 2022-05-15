@@ -16,6 +16,11 @@ body{
     }
 @import 'header';
 
+@media (max-width: 1000px){
+    img:hover{
+        transform:none;
+    }
+}
 .upBtn{
     position: fixed;
     bottom: 15px;
@@ -36,7 +41,6 @@ body{
    .CenterText{
         width:100%;
         margin-top: 160px;
-
     }
     .PicNM{
         padding: 4px;
@@ -64,10 +68,7 @@ body{
         }
     }
 
-    @media (max-width: 1000px){
-            width: 775px;  
-
-
+    @media (max-width: 980px){
         h3{
             font-size: 17px;
             text-align: left;
@@ -86,6 +87,7 @@ body{
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
+
     .Flexdiv{
         display: flex;
         flex-direction: row;
@@ -95,6 +97,10 @@ body{
     }
     figure{
         text-align: center;
+        img:hover{
+            transform: scale(1.3);
+            transition: 1.5s;
+        }
         .type1{
             width: 300px;
             height: 450px;
@@ -140,6 +146,10 @@ body{
             width: 650px;
             height: 430px;
         }
+        img:hover{
+            transform: scale(1.3);
+            transition: 1.5s;
+        }
         .figCapGoriz{
             font-size: 14px;
         }
@@ -162,7 +172,10 @@ body{
             margin-bottom: 30px;
         }
 
-            
+        img:hover{
+            transform: scale(1.3);
+            transition: 1.5s;
+        }   
     }
 
         .figEdo{
@@ -196,7 +209,10 @@ body{
                 .p2_2_2{
                     width:775px;
                 }
-            }
+                .p2_2_3{
+                    width:767px
+                }
+            } 
             .figEdo{
                 .p3img{
                     width: 300px;
@@ -207,6 +223,15 @@ body{
 
     }
 
+    .Text2_3{
+        @media(max-width: 1000px){
+            .p3_1{
+                width: 767px;
+            }
+        }
+        
+
+    }
     .Text2_4{
         margin-bottom: 10px;
        .figuresVanGog{
@@ -216,6 +241,10 @@ body{
             justify-content: center;
             text-align: center;
         .VanGogFigure{   
+            img:hover{
+                transform: scale(1.3);
+                transition: 1.5s;
+            }
             .VanGogIMG{
                 width: 340px;
                 height: 447px;

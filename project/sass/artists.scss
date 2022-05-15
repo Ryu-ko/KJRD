@@ -12,6 +12,11 @@ body{
  
 @import 'header';
 
+img:hover{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+
 .upBtn{
     position: fixed;
     bottom: 15px;
