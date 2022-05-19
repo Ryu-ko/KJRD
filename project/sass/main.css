@@ -161,6 +161,9 @@ header .aheader a {
 }
 
 @media (max-width: 980px) {
+  .textBlok1 {
+    font-size: 14px;
+  }
   .textBlok1 h3 {
     font-size: 17px;
     text-align: left;
@@ -322,6 +325,9 @@ header .aheader a {
 }
 
 @media (max-width: 1000px) {
+  .textBlok2 .figGoriz .figCapGoriz {
+    font-size: 12px;
+  }
   .textBlok2 .Text2_2 .p2_2_1 {
     width: 660px;
   }
@@ -334,6 +340,9 @@ header .aheader a {
   .textBlok2 .figEdo .p3img {
     width: 300px;
     height: 490px;
+  }
+  .textBlok2 .KabukiFig {
+    font-size: 12px;
   }
 }
 

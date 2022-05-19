@@ -76,6 +76,7 @@ body{
     }
 
     @media (max-width: 980px){
+        font-size: 14px;
         h3{
             font-size: 17px;
             text-align: left;
@@ -209,6 +210,11 @@ body{
         }
 
         @media (max-width: 1000px){
+            .figGoriz{
+                .figCapGoriz{
+                    font-size: 12px;
+                }
+            }
             .Text2_2{
                 .p2_2_1{
                     width: 660px;
@@ -225,6 +231,9 @@ body{
                     width: 300px;
                     height: 490px;
                 }
+            }
+            .KabukiFig{
+                font-size: 12px;
             }
         }
 
