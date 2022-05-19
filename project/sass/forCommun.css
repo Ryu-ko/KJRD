@@ -227,9 +227,10 @@ h3 {
 
 @media (max-width: 1000px) {
   h3 {
-    height: 95px;
-    width: 530px;
-    font-size: 26px;
+    font-weight: bold;
+    height: 115px;
+    width: 100%;
+    font-size: 32px;
     margin-top: 60px;
   }
   .TextDV {
@@ -255,17 +256,17 @@ h3 {
     margin-top: 45px;
   }
   .FormDV form label {
-    width: 300px;
-    font-size: 22px;
+    width: 315px;
+    font-size: 26px;
   }
   .FormDV form input {
     background-color: #0d121e;
-    width: 540px;
-    height: 44px;
+    width: 480px;
+    height: 50px;
   }
   .FormDV form .txarea textarea {
     background-color: #0d121e;
-    width: 540px;
+    width: 480px;
   }
   .FormDV form .Butn {
     width: 300px;
@@ -273,11 +274,9 @@ h3 {
     margin-left: 65px;
   }
   .FormDV form .Butn button {
-    font-size: 18px;
-    background-color: #0d121e;
-    color: white;
-    width: 145px;
-    height: 47px;
+    font-size: 20px;
+    width: 175px;
+    height: 50px;
   }
 }
 
