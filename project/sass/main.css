@@ -72,9 +72,34 @@ header .aheader a {
 }
 
 @media (max-width: 1000px) {
+  header {
+    height: 135px;
+  }
+  header img {
+    margin-left: 15px;
+    width: 275px;
+  }
+  header .aheader {
+    position: absolute;
+    right: 15px;
+    width: 600px;
+  }
+  header .aheader a {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1000px) {
   img:hover {
     -webkit-transform: none;
             transform: none;
+  }
+  .upBtn {
+    bottom: 75px;
+    right: 20px;
+  }
+  .upBtn img {
+    width: 70px;
   }
 }
 
@@ -392,5 +417,19 @@ footer div {
 
 footer div img {
   width: 17px;
+}
+
+@media (max-width: 1000px) {
+  footer {
+    height: 135px;
+    font-size: 22px;
+    padding: 20px;
+  }
+  footer p {
+    margin: 6px;
+  }
+  footer div img {
+    width: 20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

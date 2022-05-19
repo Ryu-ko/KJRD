@@ -41,6 +41,26 @@ header{
         }
 
     }
-
+}
     
+@media (max-width: 1000px){
+    header{
+        height: 135px;
+
+        img{
+            margin-left: 15px;
+            width: 275px;
+        }
+    
+        .aheader{
+            position: absolute;
+            right: 15px;
+            width: 600px;
+
+            a{
+                font-size: 22px;
+            }
+    
+        }
+    }
 }

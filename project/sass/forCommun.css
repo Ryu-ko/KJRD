@@ -58,6 +58,24 @@ header .aheader a {
   text-decoration: none;
 }
 
+@media (max-width: 1000px) {
+  header {
+    height: 135px;
+  }
+  header img {
+    margin-left: 15px;
+    width: 275px;
+  }
+  header .aheader {
+    position: absolute;
+    right: 15px;
+    width: 600px;
+  }
+  header .aheader a {
+    font-size: 22px;
+  }
+}
+
 h3 {
   background-color: white;
   color: black;
@@ -97,6 +115,10 @@ h3 {
           align-items: flex-start;
 }
 
+.TextDV p {
+  margin: 0px;
+}
+
 .TextDV ul {
   margin: 6px 0px 6px 0px;
 }
@@ -130,9 +152,9 @@ h3 {
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -194,38 +216,55 @@ h3 {
 }
 
 @media (max-width: 1000px) {
+  h3 {
+    height: 65px;
+    width: 432px;
+    font-size: 24px;
+    margin-top: 60px;
+  }
   .TextDV {
     margin-left: 20px;
+    margin-top: 40px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    font-size: 22px;
+  }
+  .TextDV p, .TextDV li {
+    width: 920px;
   }
   .FormDV form {
-    width: 620px;
+    width: 870px;
+    height: 480px;
     padding: 15px 20px 15px 0px;
   }
   .FormDV form p {
     text-align: center;
+    margin-top: 30px;
   }
   .FormDV form label {
     width: 200px;
+    font-size: 18px;
   }
   .FormDV form input {
     background-color: #0d121e;
-    width: 400px;
-    height: 32px;
+    width: 560px;
+    height: 44px;
   }
   .FormDV form .txarea textarea {
     background-color: #0d121e;
-    width: 400px;
+    width: 560px;
   }
   .FormDV form .Butn {
-    width: 200px;
-    margin-top: 15px;
-    margin-left: 50px;
+    width: 300px;
+    margin-top: 45px;
+    margin-left: 65px;
   }
   .FormDV form .Butn button {
+    font-size: 16px;
     background-color: #0d121e;
     color: white;
-    width: 115px;
-    height: 30px;
+    width: 135px;
+    height: 37px;
   }
 }
 
@@ -272,5 +311,19 @@ footer div {
 
 footer div img {
   width: 17px;
+}
+
+@media (max-width: 1000px) {
+  footer {
+    height: 135px;
+    font-size: 22px;
+    padding: 20px;
+  }
+  footer p {
+    margin: 6px;
+  }
+  footer div img {
+    width: 20px;
+  }
 }
 /*# sourceMappingURL=forCommun.css.map */

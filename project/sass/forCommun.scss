@@ -32,6 +32,9 @@ h3{
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
+    p{
+        margin:0px;
+    }
     ul{
         margin: 6px 0px 6px 0px;
     }
@@ -47,16 +50,12 @@ h3{
         width: 900px;
         padding: 20px 20px 40px 0px;
         background-color: #FFF2DD;
-        
-   
         p{
            text-align: center;
-            //width: 920px;
-
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
 
         }
@@ -111,44 +110,59 @@ h3{
 }
 
 @media (max-width: 1000px) {
+    h3{
+    height: 65px;
+    width: 432px; 
+    font-size: 24px;
+    margin-top: 60px;
+    }
     .TextDV{
         margin-left: 20px;
+        margin-top: 40px;
+        line-height: 35px;
+        letter-spacing: 0.08em;
+        font-size: 22px;
+        p,li{
+            width: 920px;
+        }
     }
     .FormDV{
         form{
-            width: 620px;
+            width: 870px;
+            height: 480px;
             padding: 15px 20px 15px 0px;
             p{
                text-align: center;
-                //width: 920px;
+               margin-top: 30px;
             }
     
             label{
                 width: 200px;
-                
+                font-size: 18px;
             }
             
             input{
                 background-color: #0d121e;
-                width: 400px;
-                height: 32px;
+                width: 560px;
+                height: 44px;
             }
             
             .txarea{
                 textarea{
                     background-color: #0d121e;
-                    width: 400px;
+                    width: 560px;
                 }
             }
             .Butn{
-                width: 200px;        
-                margin-top: 15px;
-                margin-left: 50px;
+                width: 300px;        
+                margin-top: 45px;
+                margin-left: 65px;
                 button{
+                    font-size: 16px;
                     background-color: #0d121e;
                     color: white;
-                    width: 115px;
-                    height: 30px;
+                    width: 135px;
+                    height: 37px;
                 }
             }
         }//form

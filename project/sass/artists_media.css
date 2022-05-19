@@ -1,12 +1,12 @@
 .artistDiv figure .type1 {
-  margin-left: 30px;
-  width: 160px;
-  height: 317px;
+  margin-left: 37px;
+  width: 209px;
+  height: 410px;
 }
 
 .artistDiv figure .type2 {
-  width: 180px;
-  height: 317px;
+  width: 269px;
+  height: 409px;
 }
 
 .artistDiv figure figcaption {
@@ -26,6 +26,12 @@ img:hover {
   padding-right: 10px;
 }
 
+.whitedv h3 {
+  text-align: center;
+  width: 600px;
+  font-size: 22px;
+}
+
 .Autors {
   margin: auto;
   margin-top: 50px;
@@ -42,9 +48,9 @@ img:hover {
 
 .Autors .hokisdDV .portHok {
   float: right;
-  height: 365px;
-  margin-left: 30px;
-  margin-top: 5px;
+  height: 470px;
+  margin-left: 9px;
+  margin-top: 55px;
 }
 
 .Autors .hokisdDV h1, .Autors .hokisdDV h5 {
@@ -59,6 +65,8 @@ img:hover {
 }
 
 .Autors .hokisdDV p {
+  font-size: 14px;
+  margin-left: 8px;
   width: 100%;
   line-height: 19px;
   letter-spacing: 0.06em;
@@ -68,7 +76,7 @@ img:hover {
 .Autors .HokusGalDv {
   width: 100%;
   margin-top: 65px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .Autors .HokusGalDv .HokusGaler {
@@ -96,9 +104,9 @@ img:hover {
 
 .Autors .KunieshiDV .portKnsh {
   float: left;
-  height: 341px;
-  width: 238px;
-  margin-top: 30px;
+  height: 467px;
+  width: 331px;
+  margin-top: 63px;
   margin-right: 15px;
 }
 
@@ -124,7 +132,7 @@ img:hover {
 .Autors .KunieshiGalDv {
   width: 100%;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 .Autors .KunieshiGalDv .KunieshiGaler {
@@ -160,9 +168,9 @@ img:hover {
 
 .Autors .UtagawaDv .portUtagaw {
   float: right;
-  height: 350px;
+  height: 457px;
   margin-left: 30px;
-  margin-top: 5px;
+  margin-top: 55px;
 }
 
 .Autors .UtagawaDv h1, .Autors .UtagawaDv h5 {

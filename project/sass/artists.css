@@ -62,6 +62,24 @@ header .aheader a {
   text-decoration: none;
 }
 
+@media (max-width: 1000px) {
+  header {
+    height: 135px;
+  }
+  header img {
+    margin-left: 15px;
+    width: 275px;
+  }
+  header .aheader {
+    position: absolute;
+    right: 15px;
+    width: 600px;
+  }
+  header .aheader a {
+    font-size: 22px;
+  }
+}
+
 img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -405,5 +423,19 @@ footer div {
 
 footer div img {
   width: 17px;
+}
+
+@media (max-width: 1000px) {
+  footer {
+    height: 135px;
+    font-size: 22px;
+    padding: 20px;
+  }
+  footer p {
+    margin: 6px;
+  }
+  footer div img {
+    width: 20px;
+  }
 }
 /*# sourceMappingURL=artists.css.map */

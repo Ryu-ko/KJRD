@@ -20,6 +20,13 @@ body{
     img:hover{
         transform:none;
     }
+    .upBtn{
+        bottom: 75px;
+        right: 20px;
+        img{
+            width: 70px;
+        }
+    }
 }
 .upBtn{
     position: fixed;
