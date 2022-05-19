@@ -1,3 +1,12 @@
+.upBtn {
+  bottom: 40px;
+  right: 30px;
+}
+
+.upBtn img {
+  width: 85px;
+}
+
 .main {
   width: 100%;
 }

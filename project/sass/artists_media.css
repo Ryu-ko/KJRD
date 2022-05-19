@@ -19,6 +19,15 @@ img:hover {
           transform: none;
 }
 
+.upBtn {
+  bottom: 40px;
+  right: 30px;
+}
+
+.upBtn img {
+  width: 85px;
+}
+
 .whitedv {
   height: 100px;
   margin-top: 10px;
@@ -28,7 +37,6 @@ img:hover {
 
 .whitedv h3 {
   text-align: center;
-  width: 600px;
   font-size: 22px;
 }
 

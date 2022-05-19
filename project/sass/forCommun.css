@@ -76,6 +76,16 @@ header .aheader a {
   }
 }
 
+@media (max-width: 980px) {
+  .upBtn {
+    bottom: 40px;
+    right: 30px;
+  }
+  .upBtn img {
+    width: 85px;
+  }
+}
+
 h3 {
   background-color: white;
   color: black;
@@ -217,9 +227,9 @@ h3 {
 
 @media (max-width: 1000px) {
   h3 {
-    height: 65px;
-    width: 432px;
-    font-size: 24px;
+    height: 85px;
+    width: 472px;
+    font-size: 28px;
     margin-top: 60px;
   }
   .TextDV {
@@ -227,7 +237,7 @@ h3 {
     margin-top: 40px;
     line-height: 35px;
     letter-spacing: 0.08em;
-    font-size: 22px;
+    font-size: 18px;
   }
   .TextDV p, .TextDV li {
     width: 920px;
@@ -242,8 +252,8 @@ h3 {
     margin-top: 30px;
   }
   .FormDV form label {
-    width: 200px;
-    font-size: 18px;
+    width: 280px;
+    font-size: 22px;
   }
   .FormDV form input {
     background-color: #0d121e;
@@ -260,11 +270,11 @@ h3 {
     margin-left: 65px;
   }
   .FormDV form .Butn button {
-    font-size: 16px;
+    font-size: 18px;
     background-color: #0d121e;
     color: white;
-    width: 135px;
-    height: 37px;
+    width: 145px;
+    height: 47px;
   }
 }
 
