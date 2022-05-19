@@ -237,14 +237,17 @@ h3 {
     margin-top: 40px;
     line-height: 35px;
     letter-spacing: 0.08em;
-    font-size: 18px;
+    font-size: 13px;
   }
   .TextDV p, .TextDV li {
     width: 920px;
   }
+  .FormDV {
+    margin-top: 40px;
+  }
   .FormDV form {
     width: 870px;
-    height: 580px;
+    height: 570px;
     padding: 15px 20px 15px 0px;
   }
   .FormDV form p {
