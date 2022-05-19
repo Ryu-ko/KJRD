@@ -227,8 +227,8 @@ h3 {
 
 @media (max-width: 1000px) {
   h3 {
-    height: 85px;
-    width: 472px;
+    height: 95px;
+    width: 500px;
     font-size: 28px;
     margin-top: 60px;
   }
@@ -237,22 +237,22 @@ h3 {
     margin-top: 40px;
     line-height: 35px;
     letter-spacing: 0.08em;
-    font-size: 18px;
+    font-size: 16px;
   }
   .TextDV p, .TextDV li {
     width: 920px;
   }
   .FormDV form {
     width: 870px;
-    height: 480px;
+    height: 600px;
     padding: 15px 20px 15px 0px;
   }
   .FormDV form p {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 55px;
   }
   .FormDV form label {
-    width: 280px;
+    width: 300px;
     font-size: 22px;
   }
   .FormDV form input {
