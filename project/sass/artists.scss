@@ -1,3 +1,40 @@
+@mixin AutorGaler() {
+    display: flex;
+    flex-direction: row;//направл элементов слева направо
+    flex-wrap: wrap;//перенос элементов если не помещаются в ряд
+    justify-content: space-between;//элементы равномерно распределяются по линии
+    align-items: flex-start;//Верхний край элемента помещается вплотную с flex-линией
+}
+
+@mixin FigcapImg(){
+    text-align: center;
+    font-size: 12px;    
+}
+
+@mixin AutorsGalDv(){
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@mixin AutorsH1H4H5(){
+    h1,h5{
+        margin: 0px;
+        text-align: center;
+    }
+    h4{
+        margin-bottom:0px;
+        margin-top: 30px;
+        line-height: 0px;
+    } 
+}
+
+@mixin AutorsP(){
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-indent: 22px;
+}
+
 html{
     scroll-behavior: smooth;   
 }
@@ -71,43 +108,24 @@ a{
     margin: auto;
     margin-top: 50px;
     width: 1320px;
-
-    .hokisdDV{
-        
+    .hokisdDV{     
         .portHok{
             float: right;
             height: 550px;
             margin-left: 30px;
             margin-top: 5px;
         }
-        h1,h5{
-            margin: 0px;
-            text-align: center;
-        }
-        h4{
-            margin-bottom:0px;
-            margin-top: 30px;
-            line-height: 0px;
-        }
+        @include AutorsH1H4H5();
         p{
             width: 980px;
-            line-height: 19px;
-            letter-spacing: 0.06em;
-            text-indent: 22px;
+            @include AutorsP();
         }
     }//hokisdDV 
 
     .HokusGalDv{
-        width: 100%;
-        margin-top: 65px;
-        margin-bottom: 50px;
+        @include AutorsGalDv();
         .HokusGaler{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: flex-start;
-
+            @include AutorGaler();
             figure{
                 text-align: center;
                 margin: 0px 0px 30px 0px;
@@ -120,9 +138,7 @@ a{
                     height: 400px;
                 }
                 figcaption{
-                    text-align: center;
-                    font-size: 12px;
-                    
+                    @include FigcapImg();   
                 }
             }   
         }
@@ -137,35 +153,18 @@ a{
             margin-top: 30px;
             margin-right: 15px;
         }
-        h1,h5{
-            margin: 0px;
-            text-align: center;
-        }
-        h4{
-            margin-bottom:0px;
-            margin-top: 30px;
-            line-height: 0px;
-        }
+        @include AutorsH1H4H5();
         p{
             margin-left: 400px;
             width: 900px;
-            line-height: 19px;
-            letter-spacing: 0.06em;
-            text-indent: 22px;
+            @include AutorsP();
         }
 
     }//KunieshiDV
         .KunieshiGalDv{
-            width: 100%;
-            margin-top: 50px;
-            margin-bottom: 50px;
+            @include AutorsGalDv();
             .KunieshiGaler{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: flex-start;
-    
+                @include AutorGaler();
                 figure{
                     text-align: center;
                     margin: 0px;
@@ -183,8 +182,7 @@ a{
                         height: 495px; 
                     }
                     figcaption{
-                        text-align: center;
-                        font-size: 12px;
+                        @include FigcapImg();
                         margin-bottom: 20px;
                         
                     }
@@ -199,32 +197,18 @@ a{
             margin-left: 30px;
             margin-top: 5px;
         }
-        h1,h5{
-            margin: 0px;
-            text-align: center;
-        }
-        h4{
-            margin-bottom:0px;
-            margin-top: 30px;
-            line-height: 0px;
-        }
+        @include AutorsH1H4H5();
         p{
             width: 980px;
-            line-height: 19px;
-            letter-spacing: 0.06em;
-            text-indent: 22px;
+            @include AutorsP();
         }
 
     }//UtagawaDv
         .UtagawaGalDv{
-            width: 100%;
-            margin-top: 50px;
+            @include AutorsGalDv();
             margin-bottom: 15px;
             .UtagawaGaler{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
+                @include AutorGaler();
                 align-items: center;
     
                 figure{
@@ -240,9 +224,7 @@ a{
                         height: 400px;
                     }
                     figcaption{
-                        text-align: center;
-                        font-size: 12px;
-                        
+                        @include FigcapImg();   
                     }
                 }   
             }//KunieshiGaler

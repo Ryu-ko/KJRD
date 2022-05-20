@@ -180,9 +180,9 @@ h3 {
 .FormDV form input {
   background-color: #0d121e;
   width: 645px;
-  height: 32px;
   color: white;
   border: none;
+  height: 32px;
 }
 
 .FormDV form .txarea {
@@ -199,6 +199,7 @@ h3 {
   width: 645px;
   color: white;
   border: none;
+  width: 645px;
   border-radius: 0px;
 }
 

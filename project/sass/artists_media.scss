@@ -1,3 +1,13 @@
+@mixin Autorsp(){
+    width: 100%;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-indent: 22px;
+}
+@mixin FigcapImg(){
+    text-align: center;
+    font-size: 12px;    
+}
 .artistDiv{
     figure{ 
         .type1{
@@ -68,10 +78,7 @@ img:hover{
         p{
             font-size: 14px;
             margin-left: 8px;
-            width: 100%;
-            line-height: 19px;
-            letter-spacing: 0.06em;
-            text-indent: 22px;
+            @include Autorsp();
         }
     }//hokisdDV 
 
@@ -93,7 +100,7 @@ img:hover{
                     height: 323px;
                 }
                 figcaption{
-                    font-size: 12px;
+                    @include FigcapImg();   
                     
                 }
             }   
@@ -120,10 +127,7 @@ img:hover{
         }
         p{
             margin-left: 0px;
-            width: 100%;
-            line-height: 19px;
-            letter-spacing: 0.06em;
-            text-indent: 22px;
+            @include Autorsp();
         }
 
     }//KunieshiDV
@@ -150,8 +154,7 @@ img:hover{
                         height: 270px;
                     }
                     figcaption{
-                        text-align: center;
-                        font-size: 12px;
+                        @include FigcapImg();   
                         margin-bottom: 20px;
                         
                     }
@@ -176,10 +179,7 @@ img:hover{
             line-height: 0px;
         }
         p{
-            width: 100%;
-            line-height: 19px;
-            letter-spacing: 0.06em;
-            text-indent: 22px;
+            @include Autorsp();
         }
 
     }//UtagawaDv
@@ -203,9 +203,7 @@ img:hover{
                         height: 340px;
                     }
                     figcaption{
-                        text-align: center;
-                        font-size: 12px;
-                        
+                        @include FigcapImg();   
                     }
                 }   
             }//KunieshiGaler
