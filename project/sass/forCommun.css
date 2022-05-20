@@ -230,18 +230,18 @@ h3 {
     font-weight: bold;
     height: 115px;
     width: 100%;
-    font-size: 48px;
+    font-size: 46px;
     margin-top: 60px;
   }
   .TextDV {
     margin-left: 20px;
     margin-top: 40px;
-    line-height: 35px;
+    line-height: 25px;
     letter-spacing: 0.06em;
-    font-size: 19.5px;
+    font-size: 19px;
   }
   .TextDV p, .TextDV li {
-    width: 920px;
+    width: 910px;
   }
   .FormDV {
     margin-top: 40px;
