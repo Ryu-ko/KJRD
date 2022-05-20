@@ -12,9 +12,10 @@
 }
 
 .main .whitedv {
+  margin-top: 60px;
   height: 70px;
   width: 100%;
-  font-size: 18px;
+  font-size: 26px;
 }
 
 .main .Series {
@@ -25,30 +26,18 @@
 .main .Series .SeriesDv .SeriesImg {
   background-color: white;
   width: 420px;
-  height: 300px;
+  height: 310px;
 }
 
 .main .Series .SeriesDv .SeriesImg img {
   width: 420px;
-  height: 300px;
+  height: 310px;
 }
 
 .main .Series .SeriesDv .SeriesImg .FgCaption {
-  position: absolute;
   bottom: 0;
   width: 420px;
-  height: 50px;
-  background: #080b13f0;
-  font-size: 16px;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  height: 60px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=gallerry_media.css.map */

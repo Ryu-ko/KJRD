@@ -230,7 +230,7 @@ h3 {
     font-weight: bold;
     height: 115px;
     width: 100%;
-    font-size: 40px;
+    font-size: 48px;
     margin-top: 60px;
   }
   .TextDV {
@@ -257,7 +257,7 @@ h3 {
   }
   .FormDV form label {
     width: 315px;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
   }
   .FormDV form input {
@@ -277,8 +277,8 @@ h3 {
     margin-left: 65px;
   }
   .FormDV form .Butn button {
-    font-size: 20px;
-    width: 175px;
+    font-size: 25px;
+    width: 200px;
     height: 50px;
   }
 }
