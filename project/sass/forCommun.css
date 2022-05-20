@@ -230,7 +230,7 @@ h3 {
     font-weight: bold;
     height: 115px;
     width: 100%;
-    font-size: 32px;
+    font-size: 40px;
     margin-top: 60px;
   }
   .TextDV {
@@ -245,28 +245,31 @@ h3 {
   }
   .FormDV {
     margin-top: 40px;
+    margin-bottom: 60px;
   }
   .FormDV form {
     width: 870px;
-    height: 570px;
-    padding: 15px 20px 15px 0px;
+    padding: 15px 20px 55px 0px;
   }
   .FormDV form p {
     text-align: center;
-    margin-top: 45px;
+    margin-top: 50px;
   }
   .FormDV form label {
     width: 315px;
     font-size: 26px;
+    font-weight: bold;
   }
   .FormDV form input {
     background-color: #0d121e;
     width: 480px;
-    height: 50px;
+    height: 60px;
+    font-size: 26px;
   }
   .FormDV form .txarea textarea {
     background-color: #0d121e;
     width: 480px;
+    font-size: 26px;
   }
   .FormDV form .Butn {
     width: 300px;
