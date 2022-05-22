@@ -68,15 +68,15 @@ header .aheader a {
   }
   header img {
     margin-left: 15px;
-    width: 275px;
+    width: 28%;
   }
   header .aheader {
     position: absolute;
     right: 15px;
-    width: 600px;
+    width: 60%;
   }
   header .aheader a {
-    font-size: 22px;
+    font-size: 130%;
   }
 }
 
@@ -122,12 +122,12 @@ a {
 
 .artistDiv figure .type1 {
   background-color: #fff2dd;
-  width: 280px;
+  width: 265px;
   height: 500px;
 }
 
-.artistDiv figure .type2 {
-  width: 315px;
+.artistDiv figure .type2, .artistDiv figure .type3 {
+  width: 295px;
   height: 500px;
 }
 

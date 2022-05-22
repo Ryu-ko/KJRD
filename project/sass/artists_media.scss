@@ -1,23 +1,29 @@
 @mixin Autorsp(){
-    width: 100%;
+    width: 98%;
     line-height: 19px;
     letter-spacing: 0.06em;
     text-indent: 22px;
 }
+
 @mixin FigcapImg(){
     text-align: center;
     font-size: 12px;    
 }
 .artistDiv{
+    width: 95%;
     figure{ 
         .type1{
-            margin-left: 37px;
-            width: 209px;
-            height: 410px;
+            margin-left: 8%;
+            width: 80%;
+            height: 300px;
         }
         .type2{
-            width: 269px;
-            height: 409px;
+            width: 100%;
+            height: 300px;
+        }
+        .type3{
+            width: 104%;
+            height: 300px;
         }
         figcaption{
             text-align: center;
@@ -34,7 +40,7 @@ img:hover{
     bottom: 40px;
     right: 30px;
     img{
-        width: 85px;
+        width: 55px;
     }
 }
 .whitedv{

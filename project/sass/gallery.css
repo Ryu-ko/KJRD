@@ -68,23 +68,16 @@ header .aheader a {
   }
   header img {
     margin-left: 15px;
-    width: 275px;
+    width: 28%;
   }
   header .aheader {
     position: absolute;
     right: 15px;
-    width: 600px;
+    width: 60%;
   }
   header .aheader a {
-    font-size: 22px;
+    font-size: 130%;
   }
-}
-
-.upBtn {
-  position: fixed;
-  bottom: 15px;
-  right: 20px;
-  z-index: 3;
 }
 
 .main {

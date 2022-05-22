@@ -1,12 +1,3 @@
-.upBtn {
-  bottom: 40px;
-  right: 30px;
-}
-
-.upBtn img {
-  width: 85px;
-}
-
 .main {
   width: 100%;
 }
@@ -20,23 +11,24 @@
 
 .main .Series {
   margin-top: 70px;
-  width: 920px;
+  width: 95%;
+  padding-left: 5%;
 }
 
 .main .Series .SeriesDv .SeriesImg {
   background-color: white;
-  width: 420px;
+  width: 90%;
   height: 310px;
 }
 
 .main .Series .SeriesDv .SeriesImg img {
-  width: 420px;
+  width: 100%;
   height: 310px;
 }
 
 .main .Series .SeriesDv .SeriesImg .FgCaption {
   bottom: 0;
-  width: 420px;
+  width: 90%;
   height: 60px;
   font-size: 18px;
 }

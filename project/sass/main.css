@@ -77,15 +77,15 @@ header .aheader a {
   }
   header img {
     margin-left: 15px;
-    width: 275px;
+    width: 28%;
   }
   header .aheader {
     position: absolute;
     right: 15px;
-    width: 600px;
+    width: 60%;
   }
   header .aheader a {
-    font-size: 22px;
+    font-size: 130%;
   }
 }
 
@@ -102,7 +102,7 @@ header .aheader a {
     right: 30px;
   }
   .upBtn img {
-    width: 85px;
+    width: 55px;
   }
 }
 
@@ -165,7 +165,7 @@ header .aheader a {
 
 @media (max-width: 980px) {
   .textBlok1 {
-    font-size: 12px;
+    font-size: 95%;
   }
   .textBlok1 h3 {
     font-size: 17px;
@@ -248,34 +248,35 @@ header .aheader a {
   margin: auto;
 }
 
-.textBlok2 h1 {
+.textBlok2 .Text2_1 h1 {
   text-align: center;
 }
 
-.textBlok2 p {
+.textBlok2 .Text2_1 p {
+  padding-left: 8px;
   font-size: 17px;
   line-height: 23px;
   letter-spacing: 0.04em;
   text-indent: 22px;
 }
 
-.textBlok2 .figGoriz {
+.textBlok2 .Text2_1 .figGoriz {
   text-align: center;
 }
 
-.textBlok2 .figGoriz img {
+.textBlok2 .Text2_1 .figGoriz img {
   width: 650px;
   height: 430px;
 }
 
-.textBlok2 .figGoriz img:hover {
+.textBlok2 .Text2_1 .figGoriz img:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   -webkit-transition: 1.5s;
   transition: 1.5s;
 }
 
-.textBlok2 .figGoriz .figCapGoriz {
+.textBlok2 .Text2_1 .figGoriz .figCapGoriz {
   font-size: 14px;
 }
 
@@ -287,11 +288,20 @@ header .aheader a {
 .textBlok2 .Text2_2 .p2_2_1, .textBlok2 .Text2_2 .p2_2_2 {
   margin-top: 20px;
   width: 460px;
+  padding-left: 8px;
   font-size: 17px;
   line-height: 23px;
   letter-spacing: 0.04em;
   text-indent: 22px;
   margin-bottom: 30px;
+}
+
+.textBlok2 .Text2_2 .p2_2_3, .textBlok2 .Text2_2 .p2_2_4 {
+  padding-left: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-indent: 22px;
 }
 
 .textBlok2 .Text2_2 img:hover {
@@ -309,7 +319,7 @@ header .aheader a {
 
 .textBlok2 .figEdo .p3img {
   width: 310px;
-  height: 420px;
+  height: 440px;
 }
 
 .textBlok2 .figEdo .figCapEdo {
@@ -328,35 +338,82 @@ header .aheader a {
 }
 
 @media (max-width: 1000px) {
-  .textBlok2 .figGoriz .figCapGoriz {
+  .textBlok2 .Text2_1 {
+    width: 95%;
+  }
+  .textBlok2 .Text2_1 p {
+    padding-left: 5%;
+    font-size: 95%;
+  }
+  .textBlok2 .Text2_1 .figGoriz .figCapGoriz {
     font-size: 12px;
   }
   .textBlok2 .Text2_2 .p2_2_1 {
-    width: 660px;
+    width: 100%;
+    padding-left: 5%;
+    font-size: 95%;
   }
   .textBlok2 .Text2_2 .p2_2_2 {
-    width: 775px;
+    width: 100%;
+    padding-left: 5%;
+    font-size: 95%;
   }
-  .textBlok2 .Text2_2 .p2_2_3 {
-    width: 767px;
+  .textBlok2 .Text2_2 .p2_2_3, .textBlok2 .Text2_2 .p2_2_4 {
+    width: 90%;
+    padding-left: 5%;
+    font-size: 95%;
   }
   .textBlok2 .figEdo .p3img {
-    width: 300px;
+    width: 90%;
     height: 490px;
   }
   .textBlok2 .KabukiFig {
     font-size: 12px;
+    margin: 0px;
   }
+}
+
+.Text2_3 h1 {
+  text-align: center;
+}
+
+.Text2_3 .p3_1 {
+  padding-left: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-indent: 22px;
+}
+
+.Text2_3 .figGoriz {
+  text-align: center;
 }
 
 @media (max-width: 1000px) {
   .Text2_3 .p3_1 {
-    width: 767px;
+    width: 88%;
+    padding-left: 5%;
+    font-size: 95%;
+  }
+  .Text2_3 .figGoriz img {
+    width: 100%;
   }
 }
 
 .Text2_4 {
   margin-bottom: 10px;
+}
+
+.Text2_4 h1 {
+  text-align: center;
+}
+
+.Text2_4 p {
+  padding-left: 8px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-indent: 22px;
 }
 
 .Text2_4 .figuresVanGog {
@@ -384,6 +441,17 @@ header .aheader a {
 .Text2_4 .figuresVanGog .VanGogFigure .VanGogIMG {
   width: 340px;
   height: 447px;
+}
+
+@media (max-width: 1000px) {
+  .Text2_4 p {
+    width: 90%;
+    padding-left: 5%;
+    font-size: 95%;
+  }
+  .Text2_4 .figuresVanGog .VanGogFigure .VanGogIMG {
+    width: 90%;
+  }
 }
 
 footer {
