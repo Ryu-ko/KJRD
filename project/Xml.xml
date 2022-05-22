@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Xml_XSL.xsl"?>
+<Artists>
+    <Artist>
+        <name>Кацусика Хокусай</name>
+        <lifeYears>1760 — 10 мая 1849</lifeYears>
+        <numberOfWorks> 30000 </numberOfWorks>
+        <SeriesName>“36 видов фудзи”</SeriesName>
+        <SeriesDescription>Cерия из 46 (36+10 дополнительных) цветных гравюр по дереву японского художника Кацусики Хокусая. На всех гравюрах, включая самую известную японскую гравюру «Большая волна в Канагаве», присутствует изображение священной горы Японии — Фудзи.</SeriesDescription>
+        <SeriesNumberOfWorks>46</SeriesNumberOfWorks>
+    </Artist>
+
+    <Artist>
+        <name>Утагава Куниёси</name>
+        <lifeYears>1798 — 14 апреля 1861</lifeYears>
+        <numberOfWorks> 5000 </numberOfWorks>
+        <SeriesName>“47 преданных самураев”</SeriesName>
+        <SeriesDescription>Описывает события пятнадцатого дня последнего месяца 15 года эры Гэнроку (1702 год) столицу Японии Эдо (современный Токио) потрясла в высшей степени необычная новость: в седьмую стражу - в четыре часа утра - дом высокопоставленного правительственного чиновника, церемониймейстера при дворе сёгуна (военного правителя Японии), подвергся нападению.</SeriesDescription>
+        <SeriesNumberOfWorks>50</SeriesNumberOfWorks>
+    </Artist>
+
+    <Artist>
+        <name>Утагава Хиросигэ</name>
+        <lifeYears>1797 – 12 октября 1858</lifeYears>
+        <numberOfWorks>8000</numberOfWorks>
+        <SeriesName>“100 знаменитых видов Эдо”</SeriesName>
+        <SeriesDescription> серия гравюр японского художника Хиросигэ, созданная им в период 1856 - 1858 гг.
+            Серия включает 119 листов вертикального формата, объединенных общим сюжетом - изображением пейзажных и бытовых зарисовок города Эдо. Она является самой большой серией ксилографий этого размера, напечатанных в технике нисики-э из когда-либо созданных в Японии.</SeriesDescription>
+        <SeriesNumberOfWorks>102</SeriesNumberOfWorks>
+
+    </Artist>
+
+    <Artist>
+        <name>Утагава Кунисада</name>
+        <lifeYears>	1786 –	12 января 1865 </lifeYears>
+        <numberOfWorks> 15500 </numberOfWorks>
+        <SeriesName>"Дорога Токайдо" </SeriesName>
+        <SeriesDescription> Токайдо - самая большая дорога в Японии с эпохи Эда - соединяет сёгунат столицы Эда с имперской столицей Киото . Хиросигэ прославила ее в японском искусстве благодаря многочисленным сериям гравюр на 53 «станциях», расположенных вдоль маршрута. Из всех серий Хиросигэ наиболее известна «Пятьдесят три станции Токайдо» из издания 1831-1834 годов.</SeriesDescription>
+        <SeriesNumberOfWorks>24</SeriesNumberOfWorks>
+    </Artist>
+
+    <Artist>
+        <name>Утагава Тоёкуни</name>
+        <lifeYears>1769 — 24 февраля 1825</lifeYears>
+        <numberOfWorks> 7000 </numberOfWorks>
+        <SeriesName>"Двенадцать месяцев"</SeriesName>
+        <SeriesDescription>   Серия по сюжетам, посвящена традиционным сезонным праздникам и занятиям тогдашних горожанок, причем каждому из двух художников в этом конкурсе было поручено изобразить несколько месяцев. Победителя соцсоревнования эпохи Эдо «летописи» школы Утагава не зафиксировали (да и был ли он - неизвестно), но результат вряд ли кого-то из издателей и публики разочаровал.
+            Сразу стоит отметить, что месяца даны, само собой, по лунному календарю, соответственно все сдвигается на 3-7 недель (то есть второй месяц – примерно середина марта).</SeriesDescription>
+        <SeriesNumberOfWorks>12</SeriesNumberOfWorks>
+    </Artist>
+
+    <Artist>
+        <name>Утагава Кунисада II</name>
+        <lifeYears>1823 – 20 июль 1880</lifeYears>
+        <numberOfWorks> 12000 </numberOfWorks>
+        <SeriesName>"Сказка о восьми собаках-героях"</SeriesName>
+        <SeriesDescription>Идея серии взята из эпического романа Киокутэя Бакина «Клан Сатоми и восьмерка». Собаки »( Nansō Satomi hakkenden ), написанная с 1814 по 1842 год и опубликованная в 106 томах. </SeriesDescription>
+        <SeriesNumberOfWorks>55</SeriesNumberOfWorks>
+    </Artist>
+
+</Artists>
