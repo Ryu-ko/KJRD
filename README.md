@@ -1,5 +1,6 @@
 # KJRD
-Курсовой проект по дисциплине «Компьютерные языки разметки данных»
+Course project on the discipline "Computer data markup languages" (HTML Web-Site)
+Theme: Japanese Ukiyo-e prints
 
-Ссылка для просмотра страницы:
+Link to view the page:
 https://ryu-ko.github.io/KJRD/project/main.html
